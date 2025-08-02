@@ -1,7 +1,6 @@
 import time
 import sys
 
-# Delay default
 delay_per_huruf = 0.09  
 delay_per_baris = 1.5  
 
@@ -29,7 +28,6 @@ def tampilkan_lirik(lirik, default_huruf, default_baris):
         ketik_per_huruf(baris["teks"], huruf_delay)
         time.sleep(baris_delay)
 
-# Lirik "Dunia pasti ada akhirnya" - Nadhif Basalamah
 lirik_bagian = [
     {"teks": "Dunia pasti ada akhirnya", "huruf_delay": 0.13, "baris_delay": 2.7},
     {"teks": "Bintang-bintang pun ada umurnya", "huruf_delay": 0.12, "baris_delay": 2.7},
